@@ -60,7 +60,7 @@ export default CalendarComponent.extend({
       }
       let action = this.get('onSelect');
       if (action) {
-        action(range, calendar, e);
+        action(range, calendar, e, day);
       }
     }
   },
